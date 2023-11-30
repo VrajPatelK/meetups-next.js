@@ -22,7 +22,6 @@ const NewMeetUpPage = () => {
       .then((data) => {
         // router.replace("/");
         router.push("/");
-        console.log(data);
       })
       .catch((err) => console.log(err));
   };
